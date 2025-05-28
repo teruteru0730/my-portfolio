@@ -4,44 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="css/gpt.css">
+  <!-- <link rel="stylesheet" href="css/base.css"> -->
   <title>わたしのポートフォリオ</title>
   <meta name="description" >
-  <style>
-    html {
-  font-size: 100%;
-}
-
-  </style>
 </head>
 <body>
-  <div>
-    <h1>NEMUI</h1>
-    
-     <nav>
-       <ul>
-          <li><a href="#">トップページ</a><!--こんにちは！○○です。--></li>
-          <li><a href="#">自己紹介</a><!--学んでること、趣味、好きな技術--></li>
-          <li><a href="#">今やっていること</a><!---React勉強中、MySQL完了、など--></li>
-          <li><a href="#">snsリンク</a><!--twitter / GitHub / Qiita など（あれば）--></li>
-       </ul>
-    </nav>
-  </div>
-  <div><img src="https://placehold.jp/1200x600.png" alt="メイン画像"><!--おしゃれでシンプルなもの--></div>
-   <section>
-    <h2>トップページ</h2>
-     <p>
-      初めまして、ITを勉強中の学生Kです。<br>
-      このサイトは、学習のアウトプットと、同じようにITを学んでいる方々との情報共有を目的に作りました。<br>
-      学習記録やちょっとした日記なども書いていく予定です。気軽に見ていってください！
+  <header id="top">
 
-     </p>
-   </section>
+    <div class="mokuji"> <!--もくじ-->
+      <h1 id="topmoji">NEMUI</h1>
+      
+      <nav>
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="#">自己紹介</a></li>
+          <li><a href="#">今やっていること</a></li>
+          <li><a href="#">作っているものリスト</a></li>
+          <li><a href="#">日記</a></li>
+          <li><a href="#">snsリンク</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-   <section>
+  <div><img src="image/main.png" alt="メイン画像"><!--おしゃれでシンプルなもの--></div>
+  
+
+   <section><!--本文-->
     <h2>自己紹介</h2>
     <p>
-        あらためまして、こんにちは！京都在住の大学4年生、Kです。<br>
-        情報系を専攻していて、ネットワーク系の
+        こんにちは！京都在住の大学4年生、Kです。<br>
+        このサイトは、学習のアウトプットと、同じようにITを学んでいる方々との情報共有を目的に作りました。<br>
+      学習記録やちょっとした日記なども書いていく予定です。気軽に見ていってください！
+        
       </p>
       <p>
         趣味は旅行・カフェ巡り・ゲーム、それから鴨川沿いで作業すること。破局間近のカップルを見ること。
@@ -50,7 +47,7 @@
         学生最後の年ということもあり、海外旅行に行きたいし、ゲーミングPCも欲しいし、Switch2も気になるし...。でも財布は空っぽです。働かねば
       </p>
       <p>
-        実はあまり真面目な学生ではなかったんですが、3年の夏にインターンに落ちたのがきっかけで火がつきました。<br>
+        3年の夏にインターンに落ちたのがきっかけで火がつき、
         そこから独学で「基本情報技術者試験」と「情報セキュリティマネジメント試験」に合格。多少盛ってるかもですが、だいたい2ヶ月くらいの勉強でした。
       </p>
       <p>
@@ -62,7 +59,7 @@
     <h2>今やっていること</h2>
     <p>
        現在はJavaScriptを中心に、ReactやNode.jsといったフレームワークを使ってアプリ制作に挑戦中です。<br>
-        APIを叩いたり、おけつたたいたり、実践的な知識を身につけています。
+       
     </p>
     <p>
       このサイトも学習の一環として作っており、今後は学習記録やちょっとした記事も投稿していく予定です。
@@ -70,8 +67,24 @@
     <p>
        SNSでアドバイスや質問も大歓迎です！ぜひ気軽に絡んでください。
     </p>
-   </section>
-   
+  </section>
+
+  <section>
+    <h2>作っているものリスト</h2>
+
+      
+  </section>
+
+  <section>
+    <h2>日記</h2>
+    <dl>
+      <dt>2025/４月</dt>
+      <dd>当サイト設立</dd>
+      <dt>2025/5月</dt>
+      <dd>reactを使ってtodoアプリ製作し、独自にローカルストレージ機能も追加した（YouTubeのチュートリアルさんの講座参考）</dd>
+    </dl>
+  </section>
+
    <section>
     <h2>snsリンク</h2>
     <ul>
